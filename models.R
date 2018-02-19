@@ -15,7 +15,7 @@ datLin <- data.frame(t0,t1,t2,t3,t4,t5)
 
 set.seed(42)
 
-slope <- 0
+slope <- 3
 intercept <- 10
 slope2 <- 5
 
