@@ -39,9 +39,9 @@ slope <- 4
 intercept <- 10
 T <- 10000
 t0 <- rnorm(T, mean=(0*slope+intercept))
-t1 <- rnorm(T, mean=(1*slope+intercept))+0.5*t0
-t2 <- rnorm(T, mean=(2*slope+intercept))+0.5*t1
-t3 <- rnorm(T, mean=(3*slope+intercept))+0.5*t2
+t1 <- rnorm(T, mean=(1*slope+intercept))
+t2 <- rnorm(T, mean=(2*slope+intercept))
+t3 <- rnorm(T, mean=(3*slope+intercept))
 t4 <- rnorm(T, mean=(4*slope+intercept))
 t5 <- rnorm(T, mean=(5*slope+intercept))
 
